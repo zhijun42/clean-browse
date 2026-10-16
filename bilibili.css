@@ -1,0 +1,7 @@
+.nav-search-content input[type="text"]::placeholder {
+  color: transparent !important;
+}
+
+.floor-single-card[data-quiet-browsing-live] {
+  display: none !important;
+}

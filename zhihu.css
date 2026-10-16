@@ -1,0 +1,11 @@
+.SearchBar input::placeholder {
+  color: transparent !important;
+}
+
+.HotSearchCard,
+.Pc-card:has(.Banner-link),
+.pc-article-answer-big-img,
+.SearchBar-noValueMenu .AutoComplete-group:has(.SearchBar-topSearchItem),
+.SearchBar-menuContainer:has(.SearchBar-noValueMenu > .AutoComplete-group:only-child .SearchBar-topSearchItem) {
+  display: none !important;
+}
